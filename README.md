@@ -11,19 +11,19 @@ In this project, you’ll choose one of Udacity's curated datasets and investiga
 You’ll complete the entire data analysis process, starting by posing a question and finishing by sharing your
 findings.
 
-Click [here](https://github.com/Kennedy0904/Udacity-Data-Analyst-Nanodegree/tree/master/Project/Investigate_Dataset) to check my work and feel free to give some feedbacks.
+Click [here](https://github.com/Kennedy0904/Udacity-Data-Analyst-Nanodegree/tree/master/Project_1%20Investigate_Dataset) to check my work and feel free to give some feedbacks.
 
 ## Project 2: Analyze Experiment Results
 
 In this project, you will be provided a dataset reflecting data collected from an experiment. You’ll use statistical techniques to answer questions about the data and report your conclusions and recommendations in a report.
 
-Click [here](https://github.com/Kennedy0904/Udacity-Data-Analyst-Nanodegree/tree/master/Project%20Analyze_AB_Test_Results) to check my work and feel free to give some feedbacks.
+Click [here](https://github.com/Kennedy0904/Udacity-Data-Analyst-Nanodegree/tree/master/Project_2%20Analyze_AB_Test_Results) to check my work and feel free to give some feedbacks.
 
 ## Project 3: Wrangle and Analyze Data
 
 Real-world data rarely comes clean. Using Python, you'll gather data from a variety of sources, assess its quality and tidiness, then clean it. You'll document your wrangling efforts in a Jupyter Notebook, plus showcase them through analyses and visualizations using Python and SQL. 
 
-Click [here](https://github.com/Kennedy0904/Udacity-Data-Analyst-Nanodegree/tree/master/Project%20Wrangle_Analyze_Data) to check my work and feel free to give some feedbacks.
+Click [here](https://github.com/Kennedy0904/Udacity-Data-Analyst-Nanodegree/tree/master/Project_3%20Wrangle_Analyze_Data) to check my work and feel free to give some feedbacks.
 
 ## Project 4: Communicate Data Findings
 
@@ -31,4 +31,4 @@ In this project, you will use Python’s data visualization tools to systematica
 its properties and relationships between variables. Then, you will create a presentation that communicates
 your findings to others.
 
-Click [here](https://github.com/Kennedy0904/Udacity-Data-Analyst-Nanodegree/tree/master/Project%20Communicate_Data_Findings) to check my work and feel free to give some feedbacks.
+Click [here](https://github.com/Kennedy0904/Udacity-Data-Analyst-Nanodegree/tree/master/Project_4%20Communicate_Data_Findings) to check my work and feel free to give some feedbacks.
