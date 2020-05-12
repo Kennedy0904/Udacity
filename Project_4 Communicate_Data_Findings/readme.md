@@ -1,4 +1,4 @@
-# Project 5 - Communicate Data Findings
+# Project 4 - Communicate Data Findings
 
 ## About the Project
 This project has two parts that demonstrate the importance and value of data visualization techniques in the data analysis process. In the first part, I have used Python visualization libraries to systematically explore a selected dataset ([Bay Wheels]([https://www.fordgobike.com/system-data](https://www.fordgobike.com/system-data)) data), starting from plots of single variables and building up to plots of multiple variables. In the second part, I produced a short presentation that illustrates interesting properties, trends, and relationships that I discovered in the given dataset. The primary method of conveying my findings is through transforming my exploratory visualizations from the first part into polished, explanatory visualizations.
