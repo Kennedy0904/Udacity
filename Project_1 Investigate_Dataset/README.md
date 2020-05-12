@@ -1,22 +1,58 @@
-## Introduction
-This project was part of the data wrangling section of the Udacity Data Analyst Nanodegree program and is primarily focused on wrangling data from the [WeRateDogs](https://twitter.com/dog_rates) Twitter account using Python, documented in a Jupyter Notebook (wrangle_act.ipynb). This Twitter account rates dogs with humorous commentary. The rating denominator is usually 10, however, the numerators are usually greater than 10. This aspect was not cleaned as it is part of the humor and popularity of WeRateDogs.
+# Investigate_TMDb_Movies
 
-## Project Details
-For this project, we only wanted original ratings (no retweets) that have images. Not all of the original tweets in the dataset are dog ratings and some are retweets.
+The primary goal of the project is to go through the dataset and the general data analysis process using numpy, pandas and matplotlib.
+This data set contains information about 10,000 movies collected from The Movie Database (TMDb), including user ratings and revenue.
 
-Fully assessing and cleaning the entire dataset would require exceptional effort so only a subset of its issues (eight quality issues and two tidiness issues at minimum) needed to be assessed and cleaned.
+## Project Overview
+In this project, you will analyze a dataset and then communicate your findings about it. You will use the Python libraries NumPy, pandas, and Matplotlib to make your analysis easier.
 
-The tasks for this project were:
-- Data wrangling, which consisted of:
-  - Gathering data
-  - Assessing data
-  - Cleaning data
-- Storing, analyzing, and visualizing the wrangled data
-- Reporting on my data analyses and visualizations (act_report.pdf)
+## What do you need to install?
+You will need an installation of Python, plus the following libraries:
 
-## The Data
-WeRateDogs provided their Twitter archive (which included tweets through August 1, 2017) of basic tweet data (tweet ID, timestamp, text, etc.) for use with this project. The "enhanced" csv file provided by Udacity (twitter_archive_enhanced.csv) also contains columns which were extracted programatically: the rating numerator, rating denominator, dog's name, and dog stages (doggo, floofer, pupper, and puppo). These columns needed to be assessed and cleaned as the extraction process wasn't perfect.
+* pandas
+* NumPy
+* Matplotlib
 
-The provided Twitter archive lacked some useful information: retweet count and favorite count. I used the tweet IDs to query the Twitter API for each tweet's JSON data using Python's Tweepy library and stored each tweet's entire set of JSON data in a file called tweet_json.txt. I then read the txt file line by line into a pandas DataFrame only including the desired variables; retweet count and favorite count.
+## Why this Project?
+In this project, you'll go through the data analysis process and see how everything fits together. Later Nanodegree projects will focus on individual pieces of the data analysis process.
 
-Udacity also provided a link to image_predictions.tsv which I downloaded programatically using the Requests library.
+You'll use the Python libraries NumPy, pandas, and Matplotlib, which make writing data analysis code in Python a lot easier! Not only that, these are sought-after skills by employers!
+
+## What will you learn?
+After completing the project, you will:
+
+- Know all the steps involved in a typical data analysis process
+- Be comfortable posing questions that can be answered with a given dataset and then answering those questions
+- Know how to investigate problems in a dataset and wrangle the data into a format you can use
+- Have practice communicating the results of your analysis
+- Be able to use vectorized operations in NumPy and pandas to speed up your data analysis code
+- Be familiar with pandas' Series and DataFrame objects, which let you access your data more conveniently
+- Know how to use Matplotlib to produce plots showing your findings
+
+## Exploratory Data Analysis
+Tip: Now that you've trimmed and cleaned your data, you're ready to move on to exploration. Compute statistics and create visualizations with the goal of addressing the research questions that you posed in the Introduction section. It is recommended that you be systematic with your approach. Look at one variable at a time, and then follow it up by looking at relationships between variables.
+
+## Research Questions
+
+1. What is the trend of number of movie released from 1960 to 2015?
+2. What is the distribution of movie runtime?
+3. What is the highest profit a movie earned?
+4. What is the top 10 movies with highest profit and loss?
+5. Is that movies with higher budget will make the profit higher too?
+6. What is the number of movies in each category?
+7. Which actor involved most in the movies?
+
+
+## Conclusions
+
+Some conclusion can be made through finding above:
+
+- The movie industry is growing rapidly from the 20th century but shrink in these recent years.
+- Movies with runtime below 200 minutes are always preferred.
+- Star Wars made the highest profit with 2750 millions.
+- A higher budget movie will not necessary bring more profit.
+- Drama movies have a largest portion compared to other genres.
+- Robert De Niro is the most active actor with 72 movies involved.
+
+## Limitations/ Future Works
+In this project, there is several columns dropped like keyword. This attribute is actually a important source to build a movie recommendation system. Furthermore, there is the data analysis could be done in a more detail where analysis on movie genres level.
